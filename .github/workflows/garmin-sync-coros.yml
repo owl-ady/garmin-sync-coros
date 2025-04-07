@@ -5,7 +5,7 @@ on:
   schedule:
     - cron: '0 0,9,19,22 * * ?'
 env:
-  GITHUB_NAME: owlady
+  GITHUB_NAME: owl-ady
   GITHUB_EMAIL: hubo94118@gmail.com
   ## 佳明配置
   GARMIN_AUTH_DOMAIN: ${{ secrets.GARMIN_AUTH_DOMAIN }}
